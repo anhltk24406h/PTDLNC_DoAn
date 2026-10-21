@@ -1,0 +1,53 @@
+[
+  {
+    "file": "data\\raw\\FOIA_7a_FY2000_FY2009_asof_260630.csv",
+    "url": "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_7a_FY2000_FY2009_asof_260630.csv",
+    "status": "user_supplied_local_file",
+    "sha256": "66674e18a700fbba0378c25118c291ac2759784a550c643cab5747eced763d6a",
+    "bytes": 318425094,
+    "verified_at": "2026-10-21T10:34:02.300768+07:00",
+    "origin": "Replacement CSV supplied by user; official URL is for attribution, not an asserted byte-for-byte online comparison.",
+    "snapshot": "2026-06-30"
+  },
+  {
+    "file": "data\\raw\\FOIA_7a_FY2010_FY2019_asof_260630.csv",
+    "url": "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_7a_FY2010_FY2019_asof_260630.csv",
+    "status": "user_supplied_local_file",
+    "sha256": "01a3e2c7988a6f4052e53f218a309feb2ec2fe42887bebdc0fa94ac8b1024ade",
+    "bytes": 255101999,
+    "verified_at": "2026-10-21T10:34:02.301773+07:00",
+    "origin": "Replacement CSV supplied by user; official URL is for attribution, not an asserted byte-for-byte online comparison.",
+    "snapshot": "2026-06-30"
+  },
+  {
+    "file": "data\\raw\\7a_504_foia_data_dictionary.xlsx",
+    "url": "https://data.sba.gov/sites/default/files/uploaded_resources/7a_504_foia_data_dictionary.xlsx",
+    "status": "verified_local",
+    "sha256": "777ba97a6f92e325f79905610816cb59d41f1971cd964c54dc30ef02730a3941",
+    "bytes": 24529,
+    "verified_at": "2026-10-21T10:34:02.303128+07:00"
+  },
+  {
+    "file": "data\\raw\\FRED_MD_2026-09.csv",
+    "url": "https://www.stlouisfed.org/-/media/project/frbstl/stlouisfed/research/fred-md/monthly/2026-09-md.csv",
+    "status": "verified_local",
+    "sha256": "d6e239038afbdbf4667c2a63c13c942817bc196fedab4355cd7e0d353ecdd65d",
+    "bytes": 669656,
+    "verified_at": "2026-10-21T10:34:02.303128+07:00"
+  },
+  {
+    "file": "data\\metadata\\usa_110m.json",
+    "url": "https://cdn.plot.ly/un/usa_110m.json",
+    "status": "verified_local",
+    "sha256": "fc83e70129aa4911c0ab6e42faadd854e4ec1da71a095785c294e999e34c4d58",
+    "bytes": 68514,
+    "verified_at": "2026-10-21T10:34:02.304605+07:00"
+  },
+  {
+    "file": "data\\raw\\Fred_original.csv",
+    "origin": "Existing PTDLNC/Fred.csv",
+    "sha256": "d6e239038afbdbf4667c2a63c13c942817bc196fedab4355cd7e0d353ecdd65d",
+    "bytes": 669656,
+    "matches_official_2026_09": true
+  }
+]

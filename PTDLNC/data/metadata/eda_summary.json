@@ -1,0 +1,23 @@
+{
+  "n_all": 1236084,
+  "n_resolved": 1033447,
+  "n_chgoff": 178504,
+  "n_pif": 854943,
+  "chgoff_rate": 0.1727268065028976,
+  "n_status": {
+    "PIF": 854943,
+    "CHGOFF": 178504,
+    "CANCLD": 149020,
+    "EXEMPT": 53573,
+    "COMMIT": 44
+  },
+  "approval_start": "1999-10-01",
+  "approval_end": "2019-09-30",
+  "n_naics_missing_or_invalid": 19779,
+  "negative_gross_n": 0,
+  "term_gt_300_n": 10314,
+  "zero_term_n": 1138,
+  "zero_jobs_n": 223310,
+  "gross_total": 329332463539.11005,
+  "processed_columns": 32
+}

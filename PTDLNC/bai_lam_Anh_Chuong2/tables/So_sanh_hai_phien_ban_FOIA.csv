@@ -1,0 +1,12 @@
+﻿metric,key,old_value,new_value,change,unit
+Tổng số dòng khoản vay,n_all,1236084,1236084,0,count
+Khoản có nhãn (PIF + CHGOFF),n_resolved,1029770,1033447,3677,count
+Trả đủ (PIF),n_pif,851597,854943,3346,count
+Xóa nợ (CHGOFF),n_chgoff,178173,178504,331,count
+Tỷ lệ xóa nợ trên khoản có nhãn,chgoff_rate,0.173022131155501,0.172726806502898,-0.000295324652603152,proportion
+Số khoản có kỳ hạn trên 300 tháng,term_gt_300_n,10312,10314,2,count
+Số cột trong loans_clean,processed_columns,33,32,-1,count
+Trạng thái EXEMPT,EXEMPT,57249,53573,-3676,count
+Trạng thái CANCLD,CANCLD,149016,149020,4,count
+Trạng thái COMMIT,COMMIT,49,44,-5,count
+Tỷ lệ có nhãn FY2019,fy2019_resolved_rate,0.590768104495,0.608896680602,0.018128576107,proportion

@@ -1,0 +1,21 @@
+{
+  "snapshot": "2026-06-30",
+  "vintage": "260630",
+  "snapshot_vi": "30/06/2026",
+  "snapshot_month_vi": "06/2026",
+  "sources": [
+    {
+      "file": "FOIA_7a_FY2000_FY2009_asof_260630.csv",
+      "fy_start": 2000,
+      "fy_end": 2009
+    },
+    {
+      "file": "FOIA_7a_FY2010_FY2019_asof_260630.csv",
+      "fy_start": 2010,
+      "fy_end": 2019
+    }
+  ],
+  "origin": "User-supplied replacement files; validated against internal AsOfDate and local SHA-256.",
+  "updated_on": "2026-10-21",
+  "previous_vintage": "260331"
+}

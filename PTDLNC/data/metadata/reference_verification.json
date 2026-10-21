@@ -1,0 +1,269 @@
+[
+  {
+    "DOI": "10.1098/rspl.1895.0041",
+    "title": [
+      "VII. Note on regression and inheritance in the case of two parents"
+    ],
+    "author": [
+      {
+        "given": "Karl",
+        "family": "Pearson",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "University College, London"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          1895,
+          12,
+          31
+        ]
+      ]
+    },
+    "container-title": [
+      "Proceedings of the Royal Society of London"
+    ],
+    "volume": "58",
+    "issue": "347-352",
+    "page": "240-242",
+    "publisher": "The Royal Society",
+    "URL": "https://doi.org/10.1098/rspl.1895.0041",
+    "type": "journal-article"
+  },
+  {
+    "DOI": "10.2307/1412159",
+    "title": [
+      "The Proof and Measurement of Association between Two Things"
+    ],
+    "author": [
+      {
+        "given": "C.",
+        "family": "Spearman",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          1904,
+          1
+        ]
+      ]
+    },
+    "container-title": [
+      "The American Journal of Psychology"
+    ],
+    "volume": "15",
+    "issue": "1",
+    "page": "72",
+    "publisher": "University of Illinois Press",
+    "URL": "https://doi.org/10.2307/1412159",
+    "type": "journal-article"
+  },
+  {
+    "DOI": "10.1080/01621459.1927.10502953",
+    "title": [
+      "Probable Inference, the Law of Succession, and Statistical Inference"
+    ],
+    "author": [
+      {
+        "given": "Edwin B.",
+        "family": "Wilson",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          1927,
+          6
+        ]
+      ]
+    },
+    "container-title": [
+      "Journal of the American Statistical Association"
+    ],
+    "volume": "22",
+    "issue": "158",
+    "page": "209-212",
+    "publisher": "Informa UK Limited",
+    "URL": "https://doi.org/10.1080/01621459.1927.10502953",
+    "type": "journal-article"
+  },
+  {
+    "DOI": "10.1080/01621459.1958.10501452",
+    "title": [
+      "Nonparametric Estimation from Incomplete Observations"
+    ],
+    "author": [
+      {
+        "given": "E. L.",
+        "family": "Kaplan",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "University of California Radiation Laboratory"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Paul",
+        "family": "Meier",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Chicago"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          1958,
+          6
+        ]
+      ]
+    },
+    "container-title": [
+      "Journal of the American Statistical Association"
+    ],
+    "volume": "53",
+    "issue": "282",
+    "page": "457-481",
+    "publisher": "Informa UK Limited",
+    "URL": "https://doi.org/10.1080/01621459.1958.10501452",
+    "type": "journal-article"
+  },
+  {
+    "DOI": "10.1080/07350015.2015.1086655",
+    "title": [
+      "FRED-MD: A Monthly Database for Macroeconomic Research"
+    ],
+    "author": [
+      {
+        "given": "Michael W.",
+        "family": "McCracken",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Research Division, Federal Reserve Bank of St. Louis, St. Louis, MO 63166 ()"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Serena",
+        "family": "Ng",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Economics, Columbia University, New York, NY 10025 ()"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2016,
+          9,
+          15
+        ]
+      ]
+    },
+    "container-title": [
+      "Journal of Business &amp; Economic Statistics"
+    ],
+    "volume": "34",
+    "issue": "4",
+    "page": "574-589",
+    "publisher": "Informa UK Limited",
+    "URL": "https://doi.org/10.1080/07350015.2015.1086655",
+    "type": "journal-article"
+  },
+  {
+    "DOI": "10.1515/9781400883868",
+    "title": [
+      "Mathematical Methods of Statistics (PMS-9)"
+    ],
+    "author": [
+      {
+        "given": "Harald",
+        "family": "Cramér",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          1946,
+          12,
+          31
+        ]
+      ]
+    },
+    "container-title": [],
+    "volume": null,
+    "issue": null,
+    "page": null,
+    "publisher": "Princeton University Press",
+    "URL": "https://doi.org/10.1515/9781400883868",
+    "type": "edited-book"
+  }
+]

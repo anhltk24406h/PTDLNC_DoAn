@@ -1,0 +1,80 @@
+{
+  "numeric_pairs": [
+    {
+      "a": "GrossApproval",
+      "b": "SBAGuaranteedApproval",
+      "pearson": 0.9950607795263139,
+      "spearman": 0.9914421436933201,
+      "n_pair": 1236084
+    },
+    {
+      "a": "GrossApproval",
+      "b": "TermInMonths",
+      "pearson": 0.5150229528316806,
+      "spearman": 0.5426018415527559,
+      "n_pair": 1236084
+    },
+    {
+      "a": "GrossApproval",
+      "b": "JobsSupported",
+      "pearson": 0.19861433988558796,
+      "spearman": 0.2959810037237484,
+      "n_pair": 1236082
+    },
+    {
+      "a": "GrossApproval",
+      "b": "InitialInterestRate",
+      "pearson": -0.24115618143169085,
+      "spearman": -0.4250264726373441,
+      "n_pair": 582384
+    },
+    {
+      "a": "SBAGuaranteedApproval",
+      "b": "TermInMonths",
+      "pearson": 0.5146791187762078,
+      "spearman": 0.5580226147379854,
+      "n_pair": 1236084
+    },
+    {
+      "a": "SBAGuaranteedApproval",
+      "b": "JobsSupported",
+      "pearson": 0.19549378051437077,
+      "spearman": 0.2757735732367645,
+      "n_pair": 1236082
+    },
+    {
+      "a": "SBAGuaranteedApproval",
+      "b": "InitialInterestRate",
+      "pearson": -0.2384375144910692,
+      "spearman": -0.42025965115346603,
+      "n_pair": 582384
+    },
+    {
+      "a": "TermInMonths",
+      "b": "JobsSupported",
+      "pearson": 0.054331627659056754,
+      "spearman": 0.10332726122258541,
+      "n_pair": 1236082
+    },
+    {
+      "a": "TermInMonths",
+      "b": "InitialInterestRate",
+      "pearson": -0.2102649129496682,
+      "spearman": -0.13411648577386326,
+      "n_pair": 582384
+    },
+    {
+      "a": "JobsSupported",
+      "b": "InitialInterestRate",
+      "pearson": -0.14232776298831887,
+      "spearman": -0.1921783300963372,
+      "n_pair": 582382
+    }
+  ],
+  "cramers_v_with_status": {
+    "BusinessType": 0.054507571794376694,
+    "ProcessingMethod": 0.12417122431190573,
+    "NAICS2": 0.044866276471595495,
+    "BorrState": 0.05701450908687481
+  }
+}

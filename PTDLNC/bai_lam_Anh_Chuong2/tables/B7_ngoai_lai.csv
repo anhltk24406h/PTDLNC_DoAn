@@ -1,0 +1,4 @@
+﻿variable,n_valid,q1,q3,iqr,lower_fence,upper_fence,outside_iqr_n,zero_n,negative_n,maximum
+GrossApproval,1236084,29700,260000,230300,-315750,605450,142931,0,0,5000000
+TermInMonths,1236084,60,120,60,-30,210,157778,1138,0,847
+JobsSupported,1236082,1,10,9,-12.5,23.5,108562,223310,0,9500

@@ -1,0 +1,7 @@
+{
+  "n_before": 1236084,
+  "n_after": 1236084,
+  "matched_months": 240,
+  "missing_lag_cells": 0,
+  "note": "Bảng vĩ mô tạm phục vụ mô tả; không ghi đè loans_clean và không tạo loans_features."
+}

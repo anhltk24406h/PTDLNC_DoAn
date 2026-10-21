@@ -1,0 +1,57 @@
+﻿variable,raw_column,group,meaning_vi,dtype,unit,role_timing,official_definition
+AsOfDate,AsOfDate,Thời gian,Ngày chụp,datetime64[us],Ngày,metadata; không phải đặc trưng,Date when the data was recorded
+Program,Program,Chương trình,Chương trình SBA,string,Danh mục,Mô tả; chỉ 7(a),Indicator of whether loan was approved under SBA's 7(a) or 504 loan program
+BorrState,BorrState,Địa lý,Bang người vay,string,Danh mục,Địa lý tổng hợp tại hồ sơ,Borrower state
+BankName,BankName,Ngân hàng,Ngân hàng đang được gán,string,Danh mục,Chỉ mô tả; chưa xác nhận tại lúc phê duyệt,Name of the bank that the loan is currently assigned to
+GrossApproval,GrossApproval,Khoản vay,Tổng tiền phê duyệt,float64,USD danh nghĩa,Thông tin phê duyệt,Total loan amount
+SBAGuaranteedApproval,SBAGuaranteedApproval,Khoản vay,Số tiền bảo lãnh SBA,float64,USD danh nghĩa,Thông tin phê duyệt,Amount of SBA's loan guaranty
+ApprovalDate,ApprovalDate,Thời gian,Ngày phê duyệt,datetime64[us],Ngày,Thông tin phê duyệt,Date the loan was approved
+ApprovalFiscalYear,ApprovalFY,Thời gian,Năm tài khóa phê duyệt,float64,FY,Thông tin phê duyệt,Fiscal year the loan was approved
+FirstDisbursementDate,FirstDisbursementDate,Thời gian,Ngày giải ngân đầu tiên,datetime64[us],Ngày,Sau phê duyệt; mặc định loại khỏi đặc trưng,Date of first loan disbursement (if available)
+ProcessingMethod,ProcessingMethod,Chương trình,Phương thức xử lý,string,Danh mục,Phương thức phê duyệt,"Specific processing method loan was approved under.  See SOP 50 10 5 for definitions and rules for each processing method.  
+7(a) Processing Methods:
+	• 7a General = 7AG
+	• 7a with EWCP = 7EW
+	• 7(a) WCP = WCP
+	• Builders Line of Credit (CAPLine) = SGC
+	• Community Advantage Initiative = CAI
+	• Community Advantage International Trade = CAT
+	• Community Advantage RLOC = CAR
+	• Community Advantage Recovery Loan = CRL
+	• Contract Loan Line of Credit (CAPLine) = CTR
+	• Export Express = EXP
+	• International Trade Loans = ITR
+	• MARC 7a General = MAC
+	• Preferred Lenders Program = PLP
+	• Preferred Lenders with EWCP = PLW
+	• Preferred Lenders with WCP = PWC
+	• SBA Express Program = SBX
+	• Seasonal Line of Credit (CAPLine) = SLC
+	• Standard Asset Base Working Capital Line of Credit (CAPLine) = STC"
+InitialInterestRate,InitialInterestRate,Khoản vay,Lãi suất ban đầu,float64,%,Tại phê duyệt; thiếu có hệ thống theo FY,Initial interest rate - total interest rate (base rate plus spread) at time loan was approved
+FixedorVariableInterestInd,FixedorVariableInterestInd,Khoản vay,Lãi suất cố định/biến đổi,string,Danh mục,Cần kiểm chứng thời điểm trước khi mô hình hóa,Fixed/variable interest rate indicator
+TermInMonths,TermInMonths,Khoản vay,Kỳ hạn,float64,Tháng,Giá trị trong hồ sơ; cần rà soát bất thường,Length of loan term
+NaicsCode,NaicsCode,Ngành,Mã NAICS,string,Danh mục,Mã ngành; lưu dạng chuỗi,North American Industry Classification System (NAICS) code
+NaicsDescription,NaicsDescription,Ngành,Mô tả ngành,string,Văn bản,Mô tả ngành; tránh dùng mã như biến số,North American Industry Classification System (NAICS) description
+FranchiseCode,FranchiseCode,Doanh nghiệp,Mã nhượng quyền,string,Danh mục,Ô trống chưa đủ để xác nhận không nhượng quyền,Franchise Code
+BusinessType,BusinessType,Doanh nghiệp,Loại hình pháp lý,string,Danh mục,Giữ nhóm gốc; chưa tự quy đổi theo pháp luật Việt Nam,"Borrower Business Type - Individual, Partnership, or Corporation"
+BusinessAge,BusinessAge,Doanh nghiệp,Nhóm tuổi doanh nghiệp,string,Danh mục,Thời điểm tham chiếu chưa nêu rõ; cần xác minh,Categorical description of the age of the business
+LoanStatus,LoanStatus,Kết quả,Trạng thái hiện tại,string,Danh mục,Tạo nhãn; cấm dùng làm đặc trưng dự báo,"Current status of loan:  
+• CANCLD = Cancelled
+• CHGOFF = Charged Off
+• COMMIT = Undisbursed
+• EXEMPT = The status of loans that have been disbursed but have not been cancelled, paid in full, or charged off are exempt from disclosure under FOIA Exemption 4
+• PIF = Paid In Full"
+PaidInFullDate,PaidInFullDate,Kết quả,Ngày trả đủ,datetime64[us],Ngày,Kết quả sau vay; cấm dùng làm đặc trưng,Date loan was paid in full (if applicable)
+ChargeOffDate,ChargeOffDate,Kết quả,Ngày xóa nợ,datetime64[us],Ngày,Kết quả sau vay; cấm dùng làm đặc trưng,Date SBA charged off loan (if applicable)
+GrossChargeOffAmount,GrossChargeOffAmount,Kết quả,Dư nợ xóa nợ gồm phần bảo lãnh và không bảo lãnh,float64,USD danh nghĩa,Kết quả sau vay; cấm dùng làm đặc trưng,Total loan balance charged off (includes guaranteed and non-guaranteed portion of loan)
+JobsSupported,JobsSupported,Doanh nghiệp,Việc làm tạo mới và duy trì ước lượng,float64,Số việc làm,Tự báo cáo trên hồ sơ; SBA không kiểm chứng,"Total Jobs Created + Jobs Retained as reported by lender on SBA Loan Application.  SBA does not review, audit, or validate these numbers - they are simply self-reported, good faith estimates by the lender."
+ProjectState,ProjectState,Địa lý,Bang dự án,string,Danh mục,Không thay thế BorrState trong bản đồ người vay,State where project occurs
+RevolverStatus,RevolverStatus,Khoản vay,0=kỳ hạn; 1=hạn mức quay vòng,string,Danh mục,Giữ mã gốc,"Indicator of whether a loan is a term loan or revolving line of credit (0=Term, 1=Revolver)"
+CollateralInd,CollateralInd,Khoản vay,Chỉ báo tài sản bảo đảm do bên cho vay báo cáo,string,Danh mục,Thời điểm cập nhật chưa nêu rõ; cần xác minh,An indicator whether the SBA lender reported that the loan was backed by collateral
+SoldSecMrktInd,SoldSecMrktInd,Sau phê duyệt,Đã bán trên thị trường thứ cấp,string,Danh mục,Có thể thay đổi sau phê duyệt; mặc định loại,"An indicator if the loan was sold on the secondary market. This is a static field once it is sold on the secondary market. Equals 'Y', if sold on the secondary market. Once it is 'Y' it will stay 'Y' for it's entirety. "
+source_file,(derived),Nguồn,Tên file nguồn,str,Văn bản,Dẫn xuất; truy xuất nguồn,Not supplied in current dictionary; see role_timing
+fy,(derived),Thời gian,Năm tài khóa chuẩn hóa,Int16,FY,Dẫn xuất từ ApprovalFiscalYear,Not supplied in current dictionary; see role_timing
+approval_month,(derived),Thời gian,"Tháng phê duyệt, ngày đầu tháng",datetime64[us],Tháng,Dẫn xuất từ ApprovalDate,Not supplied in current dictionary; see role_timing
+is_resolved,(derived),Nhãn,Thuộc PIF hoặc CHGOFF,bool,Boolean,Dẫn xuất từ kết quả; không phải đặc trưng,Not supplied in current dictionary; see role_timing
+target,(derived),Nhãn,1=CHGOFF; 0=PIF; còn lại thiếu,Int8,Nhị phân nullable,Nhãn; không phải đặc trưng,Not supplied in current dictionary; see role_timing

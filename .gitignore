@@ -1,0 +1,28 @@
+# Local Python environment and execution caches
+.venv/
+.cache/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Large original loan files; retrieve using download_sources.py.
+PTDLNC/data/raw/FOIA*.csv
+*.part
+*.tmp.parquet
+
+# Previous snapshots and generated document previews stay local.
+PTDLNC/archive/
+PTDLNC/bai_lam_Anh_Chuong2/report/preview/
+
+# Local credentials and editor state
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.aws/
+.codex/
+.vscode/
+~$*
+Thumbs.db
+.DS_Store

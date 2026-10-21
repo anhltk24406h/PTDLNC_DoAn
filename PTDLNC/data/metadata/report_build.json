@@ -1,0 +1,11 @@
+{
+  "n_evidence_facts": 35,
+  "data_source": "Full data, not a sample",
+  "planned_main_pages": 8,
+  "actual_pagination": {
+    "main_pages": 8,
+    "total_pages": 9,
+    "tool": "Microsoft Word export; inspected with PyMuPDF"
+  },
+  "reference_count": 10
+}
